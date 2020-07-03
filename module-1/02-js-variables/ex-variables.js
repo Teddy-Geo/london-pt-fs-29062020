@@ -15,4 +15,7 @@ console.log("New Age in words: ", age);
 //console.log("New name: ", name); error due to name is assigned to const and can't be reassigned
 
 //const name;
-// will produce error missing initializer in const declaration because now is undefined and it always going to be undefined "name ==undefined"
+// will produce: error missing initializer in const declaration, because now is undefined and it always going to be undefined - "name == undefined"
+// sometimes const can be changed, but not reassigned 
+
+
