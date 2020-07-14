@@ -1,0 +1,45 @@
+body{
+  background-color: #E5E5E5;
+}
+.headings{
+  text-align: center;
+  margin-top: 6rem;
+}
+.main_heading{
+  text-transform: uppercase;
+  color: #000;
+  font-family: 'Caudex', serif;
+  font-size: 4.5rem;
+  line-height: 3.3rem;
+  letter-spacing: 0.3rem;
+}
+h2{
+  font-family: 'Forum', cursive;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem; /* 48px */
+  line-height: 3.3rem;  /* 53px */
+}
+.hero{
+  position: relative;
+  background: url('img/laptop-3087585_1920\ 1.png') no-repeat left center/cover;
+  height: 80vh;
+}
+
+h3 {
+  color: #B0665D;
+  font-family: Forum;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+article {
+max-width: 70vw;
+margin: 2rem auto;
+font-family: Forum;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1.6;
+}
