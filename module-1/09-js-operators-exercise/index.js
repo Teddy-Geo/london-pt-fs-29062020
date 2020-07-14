@@ -6,7 +6,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+ function sum( num1, num2) {
+   return num1 + num2;
+ }
+ console.log(sum(6,7));
 /**
  * Exercise #2
  *
@@ -16,7 +19,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+function subtract(minuend, subtrahend) {
+  return minuend - subtrahend;
+}
+console.log(subtract(10-7));
 /**
  * Exercise #3
  *
@@ -25,7 +31,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+function multiply(num1, num2){
+  return num1 * num2;
+}
+console.log(multiply(6,7));
 /**
  * Exercise #4
  *
@@ -35,7 +44,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+function divide(num1, num2){
+  return num1 / num2;
+}
+console.log(multiply(6,7));
 /**
  * Exercise #5
  *
@@ -45,7 +57,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+function getRemainder(num1, num2) {
+  return Math.floor(num1/num2);
+}
+console.log(getRemainder(15,4));
 /**
  * Exercise #6
  *
@@ -54,7 +69,10 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
-
+function increment(index) {
+  return index+1;
+}
+console.log(increment(6));
 /**
  * Exercise #7
  *
@@ -63,3 +81,7 @@
  *
  * NOTE: additionally you can have console.log() to log the result
  */
+function decrement(index) {
+  return index-1;
+}
+console.log(decrement(8));
