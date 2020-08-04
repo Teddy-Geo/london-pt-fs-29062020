@@ -10,7 +10,11 @@
  * a new array with these integers. If there is no integers it should return
  * empty array.
  */
+function getIntegersOnly(array){
+for(arr of array){
 
+}
+}
 /**
  * Exercise 2
  * create a function {getEvenNumbers}, which takes an array of integers

@@ -68,3 +68,4 @@ function partyPadding(guests) {
       guests.push("Neighbour");
   } 
 }
+
