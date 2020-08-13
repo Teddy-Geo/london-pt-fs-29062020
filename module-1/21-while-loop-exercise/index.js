@@ -16,6 +16,7 @@ function countdown() {
   }
   console.log(`Go!`);
 }
+
 // ==========================
 
 /**
@@ -67,5 +68,5 @@ function partyPadding(guests) {
   while(guests.length < 5) {
       guests.push("Neighbour");
   } 
+  return guests;
 }
-

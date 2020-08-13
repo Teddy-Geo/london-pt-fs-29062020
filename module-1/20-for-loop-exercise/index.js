@@ -1,6 +1,6 @@
 const myName = "John"; // SET YOUR NAME
 
-const visitors = ["Alex", "Mike", "Sam"]; // Add at least 5 names
+const visitors = ["Alex", "Mike", "Sam", "Teo", "Victor"]; // Add at least 5 names
 
 /**
  * Exercise 1
@@ -37,6 +37,7 @@ function getElementIndex(check) {
     }
   } return 'Item not found';
 }
+
 // ========================
 
 /**
@@ -85,3 +86,15 @@ function lowestNumber() {
     }
   }
 }
+console.log(lowestNumber());
+
+function lowestNumber() {
+  let setNumber = 0;
+  for (let i = 0; i < forLowestNumber.length; i++) {
+    if(forLowestNumber[i] < setNumber) {
+      setNumber = forLowestNumber[i];
+    }
+  }
+  return setNumber;
+}
+console.log(lowestNumber());
